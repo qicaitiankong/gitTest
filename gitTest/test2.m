@@ -16,6 +16,22 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.frame = CGRectZero;
+        NSLog(@"提交");
+        NSLog(@"提交");
+        if(1){
+            
+        }else{
+            NSLog(@"");
+        }
+        NSLog(@"提交");
+        NSLog(@"提交");
+        if(1){
+            
+        }else{
+            NSLog(@"");
+        }
+
+
     }
     return self;
 }
