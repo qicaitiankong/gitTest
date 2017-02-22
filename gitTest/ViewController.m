@@ -19,6 +19,8 @@
     NSLog(@"提交");
     NSLog(@"提交");
     NSLog(@"提交2");
+    NSLog(@"提交");
+    NSLog(@"提交2");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
