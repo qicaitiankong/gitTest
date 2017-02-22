@@ -16,6 +16,7 @@
 		99E204011E5DAD0E00DE731E /* gitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E204001E5DAD0E00DE731E /* gitTestTests.m */; };
 		99E2040C1E5DAD0E00DE731E /* gitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E2040B1E5DAD0E00DE731E /* gitTestUITests.m */; };
 		99E2041B1E5DC18700DE731E /* test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E2041A1E5DC18700DE731E /* test2.m */; };
+		99E2041E1E5DC90800DE731E /* view1.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E2041D1E5DC90800DE731E /* view1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		99E2040D1E5DAD0E00DE731E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99E204191E5DC18700DE731E /* test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test2.h; sourceTree = "<group>"; };
 		99E2041A1E5DC18700DE731E /* test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test2.m; sourceTree = "<group>"; };
+		99E2041C1E5DC90800DE731E /* view1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = view1.h; sourceTree = "<group>"; };
+		99E2041D1E5DC90800DE731E /* view1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = view1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		99E203DA1E5DAD0E00DE731E = {
 			isa = PBXGroup;
 			children = (
+				99E2041C1E5DC90800DE731E /* view1.h */,
+				99E2041D1E5DC90800DE731E /* view1.m */,
 				99E203E51E5DAD0E00DE731E /* gitTest */,
 				99E203FF1E5DAD0E00DE731E /* gitTestTests */,
 				99E2040A1E5DAD0E00DE731E /* gitTestUITests */,
@@ -281,6 +286,7 @@
 				99E2041B1E5DC18700DE731E /* test2.m in Sources */,
 				99E203EE1E5DAD0E00DE731E /* ViewController.m in Sources */,
 				99E203EB1E5DAD0E00DE731E /* AppDelegate.m in Sources */,
+				99E2041E1E5DC90800DE731E /* view1.m in Sources */,
 				99E203E81E5DAD0E00DE731E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
