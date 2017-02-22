@@ -15,6 +15,7 @@
 		99E203F61E5DAD0E00DE731E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E203F41E5DAD0E00DE731E /* LaunchScreen.storyboard */; };
 		99E204011E5DAD0E00DE731E /* gitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E204001E5DAD0E00DE731E /* gitTestTests.m */; };
 		99E2040C1E5DAD0E00DE731E /* gitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E2040B1E5DAD0E00DE731E /* gitTestUITests.m */; };
+		99E2041B1E5DC18700DE731E /* test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E2041A1E5DC18700DE731E /* test2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		99E204071E5DAD0E00DE731E /* gitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E2040B1E5DAD0E00DE731E /* gitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitTestUITests.m; sourceTree = "<group>"; };
 		99E2040D1E5DAD0E00DE731E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99E204191E5DC18700DE731E /* test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test2.h; sourceTree = "<group>"; };
+		99E2041A1E5DC18700DE731E /* test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				99E203F41E5DAD0E00DE731E /* LaunchScreen.storyboard */,
 				99E203F71E5DAD0E00DE731E /* Info.plist */,
 				99E203E61E5DAD0E00DE731E /* Supporting Files */,
+				99E204191E5DC18700DE731E /* test2.h */,
+				99E2041A1E5DC18700DE731E /* test2.m */,
 			);
 			path = gitTest;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E2041B1E5DC18700DE731E /* test2.m in Sources */,
 				99E203EE1E5DAD0E00DE731E /* ViewController.m in Sources */,
 				99E203EB1E5DAD0E00DE731E /* AppDelegate.m in Sources */,
 				99E203E81E5DAD0E00DE731E /* main.m in Sources */,
